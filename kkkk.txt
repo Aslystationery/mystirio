@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystirio - Content Creator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575d63;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mystirio - Content Creator</h1>
+        <p>Sharing exciting gaming and reaction videos!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#content">Content</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Mystirio, a content creator sharing fun gaming and reaction videos. Join me as I explore new games and react to the latest trends!</p>
+    </section>
+
+    <section id="content">
+        <h2>My Content</h2>
+        <p>Check out some of my latest videos:</p>
+        <!-- Add links to YouTube or video embeds -->
+        <ul>
+            <li><a href="https://www.youtube.com/channel/YourChannelLink">My YouTube Channel</a></li>
+            <li><a href="https://www.instagram.com/YourInstagramLink">Follow me on Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@YourTikTokLink">TikTok Videos</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out through my social media links or send me a message below!</p>
+        <!-- Optional: Add a simple contact form -->
+        <form action="your-form-handler" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br><br>
+            <input type="email" name="email" placeholder="Your Email" required><br><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mystirio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
